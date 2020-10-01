@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1280" />
+<meta name="viewport" content="initial-scale = 1.0, maximum-scale=1, maximum-scale=4, user-scalable = yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no" />
+<title>RUNNING</title>
+<link rel="shortcut icon" href="favicon.png" type="image/png" />
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="../../font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../../css/main.css"/>
+<script type="text/javascript" src="../../../global/js/jquery.salesdriver_include.js"></script>
+<script>
+
+function sd_init_saudacao(){    
+    if(localStorage.prof_name)
+        $("#profName").text(localStorage.prof_name);
+}
+</script>
+<script>
+	var contentWidth = 1024;
+	var contentHeight = 768;
+	
+	$(fn_scale);
+	$( self ).resize(function() {
+		fn_scale();
+	});
+	function fn_scale(){
+		var frameHeight = $(parent).height();
+		var frameWidth = $(parent).width();
+		var scale = 
+			Math.min(
+				frameWidth/contentWidth,
+				frameHeight/contentHeight
+			);
+		$('body').css('transform','scale('+scale+')')
+	}
+</script>
+</head>
+
+<body>
+
+<div class="slide_rnn animated fadeIn" style="-webkit-animation-duration: 0.4s; -moz-animation-duration: 0.4s;">
+	<div class="topbar"><img src="imgs/top_logo.png" width="146" height="33"></div>
+    <div class="conteudo">
+    	<!--<div class="layer_08 animated fadeIn" style="animation-delay: 4.0s; -webkit-animation-delay: 4.0s;"><img src="imgs/layer_08.png" width="1024" height="678"></div>
+        <div class="layer_08 animated fadeIn" style="animation-delay: 3.5s; -webkit-animation-delay: 3.5s;"><img src="imgs/layer_07.png" width="1024" height="678"></div>
+        <div class="layer_07 animated fadeIn" style="animation-delay: 3.0s; -webkit-animation-delay: 3.0s;"><img src="imgs/layer_06.png" width="1024" height="678"></div>
+        <div class="layer_06 animated fadeIn" style="animation-delay: 2.5s; -webkit-animation-delay: 2.5s;"><img src="imgs/layer_05.png" width="1024" height="678"></div>-->
+        <div class="layer_05 animated fadeInRight" style="animation-delay: 1.9s; -webkit-animation-delay: 1.9s;">
+        	<div class="saudacao">
+            <p>Olá,</p>
+             <p> <span id="profName">Doutor</span>
+				, bom dia.</p>
+            </div>
+        </div>
+        <div class="layer_04 animated fadeInRight" style="animation-delay: 1.5s; -webkit-animation-delay: 1.5s;"><img src="imgs/layer_03.png" width="1024" height="678"></div>
+        <div class="layer_03 animated fadeInRight" style="animation-delay: 1.0s; -webkit-animation-delay: 1.0s; -webkit-animation-duration: 0.4s; -moz-animation-duration: 0.4s;"><img src="imgs/layer_02.png" width="1024" height="678"></div>
+        <div class="layer_02 animated fadeIn" style="animation-delay: 0.5s; -webkit-animation-delay: 0.5s;"><img src="imgs/layer_01.png" width="1024" height="678"></div>
+        <div class="layer_01"><img src="imgs/bloco.png" width="1024" height="678"></div>
+        <div class="slide_bck"></div>
+    </div>
+</div>
+</body>
+</html>

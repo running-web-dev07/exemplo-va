@@ -1,0 +1,98 @@
+{
+  "cuid": "VERSAO_1_4089a1f8-1aa7-4c13-9283-bc5b4e29f842",
+  "brand": "MKT",
+  "indication": "INSTITUCIONAL RUNNING",
+  "description": "",
+  "enabled": "true",
+  "sidebuttons": null,
+  "expiration_date_start": "20120101",
+  "expiration_date_end": "20120101",
+  "version": 1,
+  "order": 1,
+  "colors": [
+    "0x8fc964",
+    "0x0194d3"
+  ],
+  "responsive_mode":"user",
+  "art": {
+    "precall_logo": "media/images/va-logo-precall.png",
+    "interface_logo": "images/iva_logo.png",
+    "quickview": "images/quickview_background.png",
+    "precall_background": "precall_background"
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "01",
+      "script": "Slide inicial/capa com a marca da RUNNING | Impulsionando Resultados."
+    },
+    {
+      "id": 2,
+      "name": "02",
+      "script": "Este slide é um exemplo de \"Saudação aos Médicos\" para ser apresentado aos clientes uma forma de utilização de API do Sales Driver para personalizar o primeiro slide para cada Médico visitado."
+    },
+    {
+      "id": 3,
+      "name": "03",
+      "script": "Este slide destaca as informações gerais institucionais da Running. Temos que valorizar a experiência/expertise da empresa, única empresa com presença em SP e RJ, quantidade de usuários mobile, clientes e foco em INOVAÇÃO & CONVERGÊNCIA MOBILE."
+    },
+    {
+      "id": 4,
+      "name": "04",
+      "script": "Esta tela traz uma lista de Clientes que podem servir de benchmark para vários prospects indústrias do segmento Healthcare.\nAlém disso, há empresas como Rede Globo, Coca-Cola e Capemisa para o caso de estarmos em clientes que não seja do segmento Health. "
+    },
+    {
+      "id": 5,
+      "name": "05",
+      "script": "Este slide traz nossa MISSÃO. Este posicionamento se destaca em nossos produtos que traduzem essa filosofia de Impulsionar os Resultados de nossos clientes com foco em convergência, mobilidade, flexibilidade e parceria em negócios inovadores e estratégicos."
+    },
+    {
+      "id": 6,
+      "name": "06",
+      "script": "Hoje a RUNNING possui 3 unidades de negócios que trabalham de forma convergente e complementar: Healthcare (produtos para o segmento Health) / Mobile (serviços e desenvolvimento de aplicações mobile / Projects (serviços de Outsourcing e Desenvolvimento on demand)."
+    },
+    {
+      "id": 7,
+      "name": "07",
+      "script": "Dentro do segmento Healthcare nosso portfólio de produtos possui módulos focadas em cada um dos steakholders que são alvo de estratégias de negócios: Profissionais / PDV´s / Estabelecimentos / Distribuidores. \nCada cliente pode escolher o foco de sua estratégia que há um módulo dedicado exclusivamente a isso para atendê-lo!"
+    },
+    {
+      "id": 8,
+      "name": "08",
+      "script": "Dentre as áreas de atuação de nossas soluções, temos 4 grandes focos que estão destacados neste slide.\nImportante focar que estamos entre os 3 principais parceiros da indústria em todas as 4 áreas, com grande penetração de mercado (cerca de 30/35% de mkt-share informal) e mais de 8.500 users de todas essas aplicações.\nUm belo diferencial é poder escolher entre usar as soluções de forma convergente e integrada ou não! Cada cliente tem a flexibilidade para escolher a melhor estratégia para a FV."
+    },
+    {
+      "id": 9,
+      "name": "09",
+      "script": "Além da aplicação em si, possuímos serviços que completam o conceito de SaaS (Software as a Service), tais como: Hospedagem em Cloud / Logística de HW / Help Desk Trilingue.\nImportante destacar e lembrar que todas as soluções da RUNNING são 100% offline!"
+    },
+    {
+      "id": 10,
+      "name": "10",
+      "script": "Inovações que a RUNNING vem trazendo nos próximos releases e que mostram a capacidade de evolução constante da empresa são descritos neste slide: Navegabilidade de Redes Sociais (foco na usabilidade da FV) / GPS Inteligente (Radar, por exemplo) / Engajamento (Repositório, Aulas, Alertas) / Comando de Voz (filtros e lançamento de visitas em beta teste)."
+    },
+    {
+      "id": 11,
+      "name": "11",
+      "script": "E o grande diferencial: possibilidade de ter isso tudo de forma integrada e convergente. Ou seja: relacionamento com um fornecedor, possibilitando ganhos operacionais de escala, tais como redução de custos, menor retrabalho, base única, gestão centralizada, redução de erros entre outros."
+    }
+  ],
+  "flows": [
+    {
+      "name": "Default",
+      "flow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  ]
+}
