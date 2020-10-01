@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<box id="1">
+		<title>Esternocleidomastóideo</title>
+		<info>Dois usual (U)</info>
+		<value>100-150</value>
+	</box>
+	<box id="2">
+		<title>Pecho</title>
+		<info>Dois usual (U)</info>
+		<value>150-300</value>
+	</box>
+	<box id="3">
+		<title>Bíceps braquial</title>
+		<info>Dois usual (U)</info>
+		<value>150-300</value>
+	</box>
+	<box id="4">
+		<title>Braquiorradial / Pronador red.</title>
+		<info>Dois usual (U)</info>
+		<value>60-180</value>
+	</box>
+	<box id="5">
+		<title>Flexores de los dedos</title>
+		<info>Dois usual (U)</info>
+		<value>30-120</value>
+	</box>
+	<box id="6">
+		<title>Aductor / Oponente pulgar</title>
+		<info>Dois usual (U)</info>
+		<value>30-60</value>
+	</box>
+	<box id="7">
+		<title>Musclo abductor</title>
+		<info>Dois usual (U)</info>
+		<value>150-500</value>
+	</box>
+	<box id="8">
+		<title>Recto femoral</title>
+		<info>Dois usual (U)</info>
+		<value>90-300</value>
+	</box>
+	<box id="9">
+		<title>Tibial posterior</title>
+		<info>Dois usual (U)</info>
+		<value>90-180</value>
+	</box>
+	<box id="10">
+		<title>Esplênio en el cuello</title>
+		<info>Dois usual (U)</info>
+		<value>300-350</value>
+	</box>
+	<box id="11">
+		<title>Trapeze</title>
+		<info>Dois usual (U)</info>
+		<value>100-150</value>
+	</box>
+	<box id="12">
+		<title>Triceps Braquial</title>
+		<info>Dois usual (U)</info>
+		<value>100-300</value>
+	</box>
+	<box id="13">
+		<title>Dorsal</title>
+		<info>Dois usual (U)</info>
+		<value>150-300</value>
+	</box>
+	<box id="14">
+		<title>Paravertebral lumbar</title>
+		<info>Dois usual (U)</info>
+		<value>150-600</value>
+	</box>
+	<box id="15">
+		<title>Isquiotibiales</title>
+		<info>Dois usual (U)</info>
+		<value>150-400</value>
+	</box>
+	<box id="16">
+		<title>Gastrocnêmio</title>
+		<info>Dois usual (U)</info>
+		<value>150-600</value>
+	</box>
+	<box id="17">
+		<title>Soleus</title>
+		<info>Dois usual (U)</info>
+		<value>100-300</value>
+	</box>
+	<box id="18">
+		<title>Flexor largo hálux</title>
+		<info>Dois usual (U)</info>
+		<value>60-150</value>
+	</box>
+	<box id="19">
+		<title>Flexores de los dedos</title>
+		<info>Dois usual (U)</info>
+		<value>100-120</value>
+	</box>
+</language>
+

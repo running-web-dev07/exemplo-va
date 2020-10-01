@@ -1,0 +1,44 @@
+{
+  "cuid": "VERSAO_11_2215072e-0858-4917-a25b-16e6f1a38879",
+  "brand": "FQM",
+  "indication": "ABRETIA",
+  "description": "",
+  "enabled": "true",
+  "sidebuttons": null,
+  "expiration_date_start": "20120101",
+  "expiration_date_end": "20120101",
+  "version": 11,
+  "order": 1,
+  "responsive_mode": "user",
+  "colors": [
+    "0x8fc964",
+    "0x0194d3"
+  ],
+  "art": {
+    "precall_logo": "media/images/va-logo-precall.png",
+    "interface_logo": "images/iva_logo.png",
+    "quickview": "images/quickview_background.png",
+    "precall_background": "precall_background"
+  },
+  "assets": [
+    {
+      "id": 1,
+      "name": "va01",
+      "script": ""
+    },
+    {
+      "id": 2,
+      "name": "va02",
+      "script": ""
+    }
+  ],
+  "flows": [
+    {
+      "name": "FLUXO1",
+      "flow": [
+        1,
+        2
+      ]
+    }
+  ]
+}
