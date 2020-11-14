@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<dialog title="Propriedades do VA">
+    <property id="hash" value="" ></property>
+	<property id="sidebuttons" value="" ></property>
+	<property id="version" value="" ></property>
+    <hbox>
+	  <label value="Identificador (hash):" />
+      <textbox id="txtHash" size="36" />
+    </hbox>
+	<hbox>
+	  <label value="Versão" />
+	  <popupslider id="slVersao" />
+    </hbox>
+	<hbox>
+	  <label value="Navegar com botões laterais (somente android)" />
+      <checkbox id="chkSidebuttons" />
+    </hbox>
+	<!-- <vbox> -->
+      <!-- <textbox id="jsflTextBox2" size="25" /> -->
+      <!-- <button label="Set in SFW" oncreate="setFlashText(1);" oncommand="setFlashText();"/> -->
+    <!-- </vbox> -->
+    
+</dialog>
