@@ -3,21 +3,45 @@
     <property id="hash" value="" ></property>
 	<property id="sidebuttons" value="" ></property>
 	<property id="version" value="" ></property>
-    <hbox>
-	  <label value="Identificador (hash):" />
-      <textbox id="txtHash" size="36" />
-    </hbox>
-	<hbox>
-	  <label value="Versão" />
-	  <popupslider id="slVersao" />
-    </hbox>
-	<hbox>
-	  <label value="Navegar com botões laterais (somente android)" />
-      <checkbox id="chkSidebuttons" />
-    </hbox>
-	<!-- <vbox> -->
-      <!-- <textbox id="jsflTextBox2" size="25" /> -->
-      <!-- <button label="Set in SFW" oncreate="setFlashText(1);" oncommand="setFlashText();"/> -->
-    <!-- </vbox> -->
+	
+	<element flex="3" template="flash">
+		<flash 
+					height="70"
+					width="700"
+					id="flash" src="logo.swf"  
+			/>
+	</element>
+	<grid>
+		
+		<columns>
+			<column flex="1" />
+			<column flex="2" />
+		</columns>
+		
+		<rows id="controls" >
+			
+			<row>
+				<label value="Identificador (hash):" />
+				<textbox id="txtHash" size="36" />
+			</row>
+			<row>
+				<label value="Versão" />
+				<textbox id="txtVersao" size="8" />
+			</row>
+			<row template="label">
+				<label value="Navegar utilizando as bordas: " />
+				<radiogroup class="control" id="radiogroup" tabindex="" >
+					<hbox>
+						<radio label="Nenhuma" selected="true" value="none" acceskey="" />
+						<radio label="Superior" selected="" value="top" acceskey="" />
+						<radio label="Inferior" selected="" value="bottom" acceskey="" />
+					</hbox>
+				</radiogroup>
+			</row>
+			
+		</rows>
+	</grid>
+	
+    
     
 </dialog>

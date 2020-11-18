@@ -89,18 +89,21 @@ function AssertThumbsFolder(assetName){
 
 function exportToSalesDriverVA()
 {
-	// fl.createDocument("htmlcanvas");
-	// try{
-		// fl.getDocumentDOM().xmlPanel( rscPath + "dg-example.xml" );
-	// }
-	// catch(e)
-	// {
-		// fl.getDocumentDOM().close(false);
-		// alert('não deu');
-		// return;
-	// }
-	// fl.getDocumentDOM().close(false);
-	// return;
+	 fl.createDocument("htmlcanvas");
+	 try{
+		 //fl.getDocumentDOM().xmlPanel( rscPath + "dg-example.xml" );
+		 fl.getDocumentDOM().xmlPanel( rscPath + "settings-ui.xml" );
+		
+	 }
+	 catch(e)
+	 {
+		 fl.getDocumentDOM().close(false);
+		 alert('não deu');
+		 return;
+	 }
+	 fl.getDocumentDOM().close(false);
+	 return;
+	 
 	var avoidRegex = /(RECOVER_|RECUPERAR_)/i;
 	var files = FLfile.listFolder(srcPath + "*.fla", "Files.").filter(function(f){
 		return !avoidRegex.test(f);
