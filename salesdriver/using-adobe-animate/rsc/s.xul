@@ -1,0 +1,29 @@
+<dialog id="dialog" title=" xJSFL" buttons="accept,cancel">
+	<content>
+		<grid>
+			<columns id="columns">
+				<column flex="1"/>
+				<column flex="2"/>
+			</columns>
+			<rows id="controls">
+				<row template="textbox">
+					<label value="Fontes (.fla): : " width="150"/>
+					<textbox class="control" id="srcDir" value="" maxlength="" prompt="" size="" multiline="false" width="200" flex="1" oncreate="if(window.xjsfl)xjsfl.ui.handleEvent('0', 'create', 'srcDir');" onchange="if(window.xjsfl)xjsfl.ui.handleEvent('0', 'change', 'srcDir');"/>
+				</row>
+				<row template="button">
+					<label value=" " align="" control="" width="150"/>
+					<button class="control" id="srcDirButton" label="Selecionar diretório" width="200" flex="1" tabindex="" acceskey="" oncommand="if(window.xjsfl)xjsfl.ui.handleEvent('0', 'command', 'srcDirButton');" oncreate="if(window.xjsfl)xjsfl.ui.handleEvent('0', 'create', 'srcDirButton');"/>
+				</row>
+				<row template="choosefile">
+					<label value="Diretório de resultado (VA): : " align="" control="" width="150"/>
+					<choosefile id="outDir" literal="false" pathtype="" required="" size="" type="" width="" flex="1" tabindex=""/>
+				</row>
+			</rows>
+		</grid>
+	</content>
+	<script>if(window.xjsfl)
+			{
+				xjsfl.ui.handleEvent(0, 'initialize');
+			}</script>
+	<property id="xulid" value="0"/>
+</dialog>

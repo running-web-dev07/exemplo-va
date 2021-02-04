@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<dialog title="JSFL-AS communication">
+	<property id="updated" value="" ></property>
+	<hbox>
+		<textbox id="jsflTextBox" size="25" />
+		<button id="bbb" label="Set in SFW" oncreate="setFlashText(1);" oncommand="setFlashText();" />
+	</hbox>
+	<spacer></spacer>
+	<spacer></spacer>
+	<separator></separator>
+	<flash width="285" height="60" id="ooo" src="..\..\..\..\rsc\JSFL-AS.swf" />
+	<separator></separator>
+	<spacer></spacer>
+	<spacer></spacer>
+	<grid>
+		<columns>
+			<column/>
+			<column/>
+		</columns>
+		<row>
+			<label value="                                                                " />
+			<hbox>
+				<button id="nnn" label="Close" oncommand="fl.xmlui.cancel();"/>
+			</hbox>
+		</row>
+    </grid>
+	<script>
+		//trace(fl.scriptURI);
+		function setFlashText( oncreate ){
+			fl.xmlui.set( "updated", "true" );
+			if( oncreate ){
+				fl.xmlui.set( "jsflTextBox", "Hello World!" );
+			}
+		}
+	</script>
+</dialog>

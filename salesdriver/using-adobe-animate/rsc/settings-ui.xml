@@ -1,47 +1,45 @@
 <?xml version="1.0"?>
-<dialog title="Propriedades do VA">
+<dialog title="Propriedades do VA" >
     <property id="hash" value="" ></property>
 	<property id="sidebuttons" value="" ></property>
 	<property id="version" value="" ></property>
 	
-	<element flex="3" template="flash">
-		<flash 
-					height="70"
-					width="700"
-					id="flash" src="logo.swf"  
+	<flash id="flash" width="520" height="60" src="logo.swf"  
 			/>
-	</element>
+	<spacer/>
+	<separator></separator>
+	
 	<grid>
 		
 		<columns>
-			<column flex="1" />
-			<column flex="2" />
+			<column  />
+			<column  />
 		</columns>
 		
-		<rows id="controls" >
+		<rows>
 			
 			<row>
 				<label value="Identificador (hash):" />
-				<textbox id="txtHash" size="36" />
+				<textbox id="txtHash" size="36" placeholder="-------" />
 			</row>
 			<row>
 				<label value="Versão" />
 				<textbox id="txtVersao" size="8" />
 			</row>
-			<row template="label">
-				<label value="Navegar utilizando as bordas: " />
-				<radiogroup class="control" id="radiogroup" tabindex="" >
-					<hbox>
-						<radio label="Nenhuma" selected="true" value="none" acceskey="" />
-						<radio label="Superior" selected="" value="top" acceskey="" />
-						<radio label="Inferior" selected="" value="bottom" acceskey="" />
-					</hbox>
-				</radiogroup>
-			</row>
 			
 		</rows>
 	</grid>
+	<vbox>
+		<label  value="Navegar utilizando as bordas?" />
+		<radiogroup class="control" id="radiogroup" tabindex="" >
+				<hbox>
+					<radio label="Não" selected="true" value="none" acceskey="" />
+					<radio label="Bordas Superiores"  value="top" acceskey="" />
+					<radio label="Bordas Inferiores"  value="bottom" acceskey="" />
+				</hbox>
+		</radiogroup>
+	</vbox>
+
+	<button label="Close" draggable="true" id="cancel" oncommand="fl.xmlui.cancel();"/>
 	
-    
-    
 </dialog>
